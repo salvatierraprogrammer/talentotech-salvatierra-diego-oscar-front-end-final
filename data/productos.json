@@ -1,8 +1,8 @@
 [
   { "id": 1, "nombre": "G1", "img": "img/g2.PNG", "precio": 1000 },
-  { "id": 2, "nombre": "Imagen 1", "img": "img/img.jpg", "precio": 1200 },
-  { "id": 3, "nombre": "Perro Dynamic", "img": "img/perrodynamic.jpg", "precio": 1500 },
-  { "id": 4, "nombre": "ST1", "img": "img/st1.PNG", "precio": 1300 },
-  { "id": 5, "nombre": "Unitre G1", "img": "img/unitreG1.PNG", "precio": 1100 },
-  { "id": 6, "nombre": "Unitree G1", "img": "img/unitreeg1.PNG", "precio": 1400 }
+  { "id": 2, "nombre": "Perro Dynamic", "img": "img/perrodynamic.jpg", "precio": 1500 },
+  { "id": 3, "nombre": "ST1", "img": "img/st1.PNG", "precio": 1300 },
+  { "id": 4, "nombre": "Unitre G1", "img": "img/unitreG1.PNG", "precio": 1100 },
+  { "id": 5, "nombre": "Unitree G1", "img": "img/unitreeg1.PNG", "precio": 1400 },
+  { "id": 6, "nombre": "Imagen 1", "img": "img/img.jpg", "precio": 1200 }
 ]
