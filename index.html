@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Robot</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cossette+Titre:wght@400;700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <p class="header__logo"><a href="./index.html">Tienda Robot</a></p>
+        <nav class="header__nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
+                <li><a href="pages/carrito.html" class="carrito-icono">🛒<span id="contador-carrito">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="titulo-home">Bienvenidos a mi tienda</h1>
+        <p class="parrafo-home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi commodi recusandae nemo tempora delectus illo aspernatur ab eum mollitia fugit rem eligendi perspiciatis voluptates, impedit itaque expedita incidunt quaerat a.</p>
+     
+        <section class="productos-home">
+            <h2>Alguno de nuestros productos</h2>
+            <div class="contenedor-tarjetas" id="contenedor-tarjetas"> 
+                <!-- Las tarjetas de productos se generarán aquí mediante JavaScript -->
+           </div>        
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Tienda Robot</p>
+        <nav>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+    </footer>
+   <script type="module" src="./js/index.js"></script>
+</body>
+</html>
