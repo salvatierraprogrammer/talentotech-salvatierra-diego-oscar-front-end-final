@@ -86,7 +86,7 @@ El **contador del carrito** se actualiza automáticamente al agregar o quitar pr
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Alumno
 
 Proyecto desarrollado por **[Diego Salvatierra](https://github.com/salvatierraprogrammer)**  
 📧 Contacto: [dieguin6348@gmail.com](mailto:dieguin6348@gmail.com)  
