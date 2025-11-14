@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
    fetch("./data/productos.json")
    .then((res)=>{
         if(!res.ok){
-        throw new Error (`Error al cargar los productos:" ${res.status}`);
+        throw new Error (`Error HTTP staus:" ${res.status}`);
 
         }
 
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
     });
    })
-   .catch();
+   .catch((err)=> console.error(err));
     
 
     
